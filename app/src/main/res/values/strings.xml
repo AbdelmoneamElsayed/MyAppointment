@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Appointment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="ccoviid">COVID-19</string>
+    <string name="derma">Dermatology</string>
+    <string name="dentist">Dentistry</string>
+    <string name="neuro">Neurology</string>
+    <string name="child">Pediatrics</string>
+    <string name="orthopedic">Orthopedics</string>
+    <string name="ear">Ear , Nose and Throat</string>
+    <string name="cardiology">Cardiology and Vascular Disease</string>
+    <string name="chest">Chest and Respiratory</string>
+    <string name="diabetes">Diabetes and Endocrinology</string>
+    <string name="radio">Diagnostic Radiology</string>
+    <string name="gas">Gastroenterology and Endoscopy</string>
+    <string name="liver">Hepatology</string>
+    <string name="nephrology">Nephrology</string>
+    <string name="eye">Ophthalmology</string>
+    <string name="plastic">Plastic Surgery</string>
+    <string name="spinal">Spinal Surgery</string>
+    <string name="cancer">Oncology</string>
+    <string name="psy">Psychiatry</string>
+    <string name="doctor">General Surgery</string>
+</resources>

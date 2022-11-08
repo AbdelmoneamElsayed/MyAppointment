@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5FAF0"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:layout_marginTop="-280dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to My Appointment"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image_2"/>
+
+    <ImageView
+        android:id="@+id/bottomlay"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+
+        app:tint="#05BCD8" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="-72dp"
+        android:layout_above="@id/bottomlay"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_1"
+            android:onClick="sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2799EF"
+            android:backgroundTint="#2799EF"
+            android:layout_marginBottom="20dp"
+            android:text="SIGN IN"
+            android:textColor="#F9FBF6"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sign"
+            android:onClick="sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2799EF"
+            android:backgroundTint="#2799EF"
+            android:text="SIGN UP"
+            android:textColor="#F2F6F8"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
